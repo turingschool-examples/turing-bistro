@@ -1,0 +1,92 @@
+#container {
+  width: 850px;
+  margin: 0 auto;
+}
+
+a { 
+  text-decoration: none;
+  transition: color 1s;
+}
+
+a:hover {
+  font-weight: bolder;
+  color: pink;
+}
+
+.menu-item-price:before {
+  content: "$";
+}
+
+.menu-item-price {
+  display: block;
+  margin: 10px 0 20px 0;
+}
+
+#primary-nav li {
+  display: inline;
+  margin: 10px;
+}
+
+#primary-nav {
+  clear: both;
+}
+
+#menu li {
+  display: block;
+}
+
+#logo img {
+  float: right;
+  overflow: hidden;
+}
+
+#logo h1 {
+  clear: both;
+}
+
+#announcements {
+  float:left;
+  width:200px;
+}
+
+#menu {
+  float: right;
+  width: 600px;
+}
+
+footer {
+  clear:both;
+}
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+
+}
+
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) {
+  #container {
+    width:305px;
+  }
+
+  #menu {
+    width: auto
+  }
+
+  #announcements {
+    width: auto;
+  }
+
+  #logo img {
+    float: none;
+  }
+
+  #announcements {
+    float: none;
+  }
+
+  #menu {
+    float: none;
+  }
+}
+
