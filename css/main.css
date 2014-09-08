@@ -7,12 +7,15 @@
 
 h1 {
 	font-size: 40px;
+	font-weight: bold;
 }
 
 body {
 	color: #4D4F4F;
 }
+
 a {
+	color: #4D4F4F;
 	text-decoration: none;
 }
 
@@ -33,6 +36,7 @@ a:hover {
 }
 
 .menu-item {
+	padding-top: 5px;
 	position:relative
 }
 
@@ -41,6 +45,7 @@ a:hover {
 }
 
 .menu-item-price {
+	padding-top: 5px;
 	float: right;
 	position: absolute;
 	top: 0;
@@ -70,15 +75,21 @@ li {
 
 #primary-nav {
 	text-align:left;
+	font-weight: bold;
 }
 
-#primary-nav ul>li {
+#primary-nav ul li {
 	display: inline-block;
 	margin-right: 1em;
 }
 
-#logo {
+#logo img {
+	margin-top: -20px;
 	float: right;
+}
+
+#logo a {
+
 }
 
 .menu-item {
@@ -99,4 +110,14 @@ li {
 
 .article-footer > p {
 	color: #4D4F4F;
+}
+
+#announcements h2 {
+	padding-bottom: 25px;
+	border-bottom: thin dotted #313333;
+}
+
+#page-footer p {
+	margin-top: 25px;
+	margin-bottom: 25px;
 }
