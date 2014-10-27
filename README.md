@@ -1,46 +1,4 @@
----
-title: Introduction to JavaScript
-length: 180
-tags: html, css, client-side, browser
----
-
-## Learning Goals
-
-* Understand the structure of a HTML5 page
-* Learn how to access and manipulate CSS from the Chrome Developer Tools
-* Layout semantic HTML using CSS
-* Style HTML elements using CSS
-* Apply CSS transformations and transitions
-
-## Structure
-
-* 5 - Warm Up
-* 10 - Group Discussion
-* 10 - Anatomy of an HTML Page
-* 5 - Break
-* 15 - Basic CSS Refresher
-* 5 - Mini-Project Introduction
-* 110 - Mini-Project Work Time
-* 15 - Wrap-up, Share Out, Reflection
-
-## Warm-up
-
-Start a new gist. Over the intermission you read up on HTML and CSS. Take a few minutes to answer the questions below.
-
-* What are two topics that confused you?
-* What are two topics that made instant sense to you?
-
-## Full-Group Instruction
-
-### Anatomy of an HTML Page
-
-As a group, we're going to go through the `index.html` in this repository and discuss all of the components. Feel free to interject and ask questions at this time.
-
-### CSS Refresher
-
-As a group, we'll discuss the basics of CSS selectors and properties. Feel free to interject and ask questions.
-
-## Independent Challenges
+# The Turing Bistro
 
 Fork this repository and style the `index.html` in this repository using any of the stylesheets in the `css` folder. You may work in pairs or individually.
 
