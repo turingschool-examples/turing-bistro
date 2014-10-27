@@ -1,0 +1,94 @@
+#container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  font-family: "Trebuchet MS", sans-serif;
+}
+
+#logo img{
+  display: block;
+  float: left;
+}
+
+#logo img:hover {
+  transform: rotateX(540deg);
+  transition: all 1.5s linear 0;
+}
+
+#primary-nav li {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#primary-nav ul {
+  text-align: center;
+}
+
+#information {
+  text-align: center;
+  margin: auto;
+  clear: top;
+  margin: 0px;
+  padding-top: 10px;
+}
+
+a:link {
+  text-decoration: none;
+  text-align: center;
+}
+
+a:hover {
+  color: turquoise;
+  font-size: 105%;
+  transition: all .7s linear 0;
+}
+
+#menu {
+  clear: both;
+  display: inline-block;
+  float: left;
+  width: 55%;
+  padding-bottom:80px;
+}
+
+section ul {
+  padding-left: 0px;
+}
+
+section h2 {
+  font-size: 30px;
+}
+
+.menu-item {
+  list-style-type: none;
+  padding-bottom: 5px;
+}
+
+.menu-item-name {
+  display: block;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.menu-item-price:before {
+  content: "$";
+}
+
+.menu-item-price {
+  display: block;
+}
+
+nav li {
+  display: inline-block;
+}
+
+#announcements {
+  float: right;
+  width: 30%;
+  padding-bottom:80px;
+}
+
+#page-footer {
+  clear: both;
+  margin-bottom: 0px;
+}
