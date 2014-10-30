@@ -1,3 +1,15 @@
+body {
+  background-image: url('https://s3.amazonaws.com/sobeys-web-production/blocks/images/000/000/054/original/Deli_Meat-Platter_Beauty.jpg');
+  background-size: cover;
+  background-position: center;
+
+}
+
+#header[role="banner"]{
+  background-color: #40E0D0;
+  opacity: 0.68;
+}
+
 #container {
   margin-left: auto;
   margin-right: auto;
@@ -11,17 +23,23 @@
 }
 
 #logo img:hover {
-  transform: rotateX(540deg);
-  transition: all 1.5s linear 0;
+  transform: rotateX(360deg);
+  transition: all 1.3s linear 0;
 }
 
 #primary-nav li {
   padding-left: 10px;
   padding-right: 10px;
+  font-weight: bold;
+  font-size: 23px;
 }
 
 #primary-nav ul {
   text-align: center;
+}
+
+a {
+  color: #2F4F4F;
 }
 
 #information {
@@ -30,15 +48,17 @@
   clear: top;
   margin: 0px;
   padding-top: 10px;
+  font-weight: bold;
 }
 
 a:link {
+  color: black;
   text-decoration: none;
   text-align: center;
 }
 
 a:hover {
-  color: turquoise;
+  color: #008080;
   font-size: 105%;
   transition: all .7s linear 0;
 }
@@ -48,7 +68,14 @@ a:hover {
   display: inline-block;
   float: left;
   width: 55%;
-  padding-bottom:80px;
+  padding-bottom: 10px;
+  background-color: #00FFFF;
+  border: 2px solid;
+  border-radius: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+  opacity: 0.68;
+  margin-top: 15px;
 }
 
 section ul {
@@ -83,12 +110,21 @@ nav li {
 }
 
 #announcements {
+  padding-top: -5px;
   float: right;
   width: 30%;
-  padding-bottom:80px;
+  padding-bottom:60px;
+  background-color: #F0FFF0;
+  border: 2px solid;
+  border-radius: 15px;
+  padding-left: 10px;
+  padding-bottom: 43px;
+  opacity: 0.68;
+  margin-top: 15px;
 }
 
 #page-footer {
   clear: both;
   margin-bottom: 0px;
+  color: white;
 }
