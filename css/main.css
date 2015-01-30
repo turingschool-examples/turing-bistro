@@ -1,0 +1,102 @@
+body {
+  position: relative;
+  font-size: 1.5vw;
+  }
+
+#logo img{
+  width: 15%;
+  position: fixed;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+#information {
+  position: fixed;
+  width: 15%;
+  padding: 9% 0 0 4.5%;
+}
+
+#logo h1{
+  width: 50%;
+  display: block;
+  margin-left: 20%;
+  margin-right: auto;
+  padding-top: 1%;
+  font-size: 2.5vw;
+}
+
+
+#page-footer {
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+}
+
+#announcements {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 25%;
+  padding-top: 2%;
+  padding-right: 2%;
+}
+
+#menu {
+  width: 50%;
+  display: block;
+  margin-left: 20%;
+  margin-right: auto;
+  /*color: #CDC890;*/
+}
+
+#primary-nav {
+  width: 50%;
+  display: block;
+  margin-left: 20%;
+  margin-right: auto;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+#primary-nav a :hover {
+  color: #7DADAD;
+}
+
+#primary-nav li{
+  float:left;
+  list-style:none;
+  width:33%;
+  height:100%;
+  padding-bottom: 5%;
+}
+
+#primary-nav li :hover{
+  color: #7DADAD;
+}
+
+.menu-item {
+  list-style: none;
+  padding-bottom: 5%;
+}
+
+.menu-item-name {
+  font-weight: bold;
+  display: block;
+}
+
+.menu-item-description {
+  font-style: italic;
+  display: block-inline;
+}
+
+.menu-item-price:before {
+  content: "$";
+}
+
+.menu-item-price {
+  display: block-inline;
+  float: right;
+}
