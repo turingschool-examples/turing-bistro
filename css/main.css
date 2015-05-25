@@ -1,0 +1,123 @@
+#container {
+	margin-left: 50px;
+	width: 750px;
+	border-right: thin dotted #313333;
+	padding-right: 25px;
+}
+
+h1 {
+	font-size: 40px;
+	font-weight: bold;
+}
+
+body {
+	color: #4D4F4F;
+}
+
+a {
+	color: #4D4F4F;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #313333;
+}
+
+a:hover {
+	color: #858787;
+}
+
+#information {
+	font-family: Florence;
+}
+
+#menu {
+	border-bottom: thin dotted #313333;
+}
+
+.menu-item {
+	padding-top: 5px;
+	position:relative
+}
+
+.menu-item-price:before {
+	content: '$';
+}
+
+.menu-item-price {
+	padding-top: 5px;
+	float: right;
+	position: absolute;
+	top: 0;
+	right: 0;
+	font-weight: bold;
+}
+
+.menu-item-description {
+	display: block;
+	font-style: oblique;
+	position: relative;
+	max-width: 90%;
+	color: #7E8080;
+}
+
+.menu-item-name {
+	font-weight: bold;
+}
+
+nav ul {
+	padding: 0px;
+}
+
+li {
+	list-style-type: none;
+}
+
+#primary-nav {
+	text-align:left;
+	font-weight: bold;
+}
+
+#primary-nav ul li {
+	display: inline-block;
+	margin-right: 1em;
+}
+
+#logo img {
+	margin-top: -20px;
+	float: right;
+}
+
+#logo a {
+
+}
+
+.menu-item {
+	line-height: 25px;
+}
+
+#announcements {
+	position:fixed;
+	top: 0;
+	right: 0;
+	width: 400px;
+	margin-right:25px;
+}
+
+#announcements p {
+	color: #7E8080;
+}
+
+.article-footer > p {
+	color: #4D4F4F;
+}
+
+#announcements h2 {
+	padding-bottom: 25px;
+	border-bottom: thin dotted #313333;
+}
+
+#page-footer p {
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
