@@ -1,0 +1,76 @@
+#container {
+  width: 1200px;
+  position: relative;
+  margin: auto
+  }
+
+img {
+  float: right;
+  width: 20%
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    color: lightgreen;
+    font-size: 150%;
+    transition: 1s;
+    transform: rotate(360deg);
+}
+
+#primary-nav li {
+  display: inline;
+}
+
+#primary-nav ul {
+  text-align: center;
+}
+
+address {
+  text-align: center;
+}
+
+.menu-item-price::before {
+    content: "$";
+}
+
+
+.menu-item-name {
+    font-weight: bold;
+    display: block;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+#menu {
+  float: right;
+  width: 60%;
+  margin: auto;
+}
+
+.menu-item-description {
+  display: block
+}
+
+#announcements {
+  float: left; width: 20%
+}
+
+#page-footer {
+  text-align: center;
+  width: 200px;
+  margin: auto;
+}
+
+ul {
+  list-style-type: none;
+}
